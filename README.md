@@ -36,7 +36,6 @@ The following components are used in the Proteus simulation:
     Power Supply: Provides power to the circuit.
     LEDs: Indicate the success or failure of RFID tag scans.
 
-Circuit Diagram
 
 The circuit includes the following components wired together:
 
@@ -44,18 +43,13 @@ The circuit includes the following components wired together:
     Power Supply providing regulated power to the components.
     Buzzer and LEDs for feedback.
 
-Include the Proteus circuit diagram here or provide a link to it.
 Installation and Setup
 
-    Clone this repository to your local machine:
+    Clone this repository to your local machine
 
-    bash
+    Download and install the software from the official Proteus website.
 
-    git clone https://github.com/yourusername/rfid-attendance-system.git
-
-    Install Proteus Professional 8: Download and install the software from the official Proteus website.
-
-    Load the project: Open the Proteus simulation file (.pdsprj) in Proteus.
+    Open the Proteus simulation file (.pdsprj) in Proteus.
 
     Compile and simulate the project:
         Connect the virtual components and code with the microcontroller.
@@ -65,13 +59,6 @@ Installation and Setup
     Test the System:
         Simulate different RFID tags by changing tag IDs in the Proteus environment.
         Verify attendance status on the LCD screen.
-
-Usage
-
-    Power up the system.
-    Place an RFID tag near the RFID reader in the simulation.
-    If the RFID tag is recognized, the person's name and "Present" status will be displayed on the LCD. The buzzer will beep, and a green LED will light up.
-    If the RFID tag is unrecognized, a red LED will light up, and no attendance will be recorded.
 
 
 

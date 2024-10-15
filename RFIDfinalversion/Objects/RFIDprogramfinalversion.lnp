@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\finaltextcode.obj" 
+TO ".\Objects\RFIDprogramfinalversion" 
+PRINT(".\Listings\RFIDprogramfinalversion.m51")

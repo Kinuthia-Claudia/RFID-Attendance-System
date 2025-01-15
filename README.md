@@ -1,22 +1,10 @@
 # RFID-Attendance-System
-RFID Attendance System using Proteus Professional 8
 
-This repository contains the files and code for an RFID-based Attendance System simulation created using Proteus Professional 8. The project demonstrates how RFID technology can be used to log attendance in a system, with each RFID tag representing a student or employee.
-Table of Contents
-
-    Introduction
-    Features
-    Components
-    Circuit Diagram
-    Installation and Setup
-    Usage
-    Contributing
-    License
-
-Introduction
+## Introduction
 
 This project simulates an RFID Attendance System where RFID tags are used to mark the attendance of individuals. The system identifies the person by reading their RFID tag and records their attendance status (e.g., "Present" or "Absent"). The system is built and tested using Proteus Professional 8 simulation software.
-Features
+
+## Features
 
     Simulates an RFID reader and tag interaction.
     Logs attendance in real time.
@@ -24,7 +12,7 @@ Features
     Can easily be extended with a database for logging purposes.
     Supports multiple RFID tags (students/employees).
 
-Components
+## Components
 
 The following components are used in the Proteus simulation:
 
@@ -43,7 +31,7 @@ The circuit includes the following components wired together:
     Power Supply providing regulated power to the components.
     Buzzer and LEDs for feedback.
 
-Installation and Setup
+## Installation and Setup
 
     Clone this repository to your local machine
 
@@ -62,6 +50,6 @@ Installation and Setup
 
 
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
